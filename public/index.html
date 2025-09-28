@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClothesShop API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .endpoint {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #007bff;
+            border-radius: 5px;
+        }
+        .method {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .get { background-color: #28a745; color: white; }
+        .post { background-color: #007bff; color: white; }
+        .put { background-color: #ffc107; color: black; }
+        .delete { background-color: #dc3545; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛍️ ClothesShop API</h1>
+        <p>Welcome to the ClothesShop API documentation.</p>
+        
+        <h2>Available Endpoints</h2>
+        
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <strong>/</strong> - API Information
+        </div>
+        
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <strong>/health</strong> - Health Check
+        </div>
+        
+        <h2>Coming Soon</h2>
+        <p>The following endpoints will be implemented:</p>
+        
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <strong>/api/products</strong> - Get all products
+        </div>
+        
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <strong>/api/products/:id</strong> - Get product by ID
+        </div>
+        
+        <div class="endpoint">
+            <span class="method post">POST</span>
+            <strong>/api/products</strong> - Create new product
+        </div>
+        
+        <div class="endpoint">
+            <span class="method put">PUT</span>
+            <strong>/api/products/:id</strong> - Update product
+        </div>
+        
+        <div class="endpoint">
+            <span class="method delete">DELETE</span>
+            <strong>/api/products/:id</strong> - Delete product
+        </div>
+        
+        <h2>Quick Test</h2>
+        <p>Try these links:</p>
+        <ul>
+            <li><a href="/health">Health Check</a></li>
+            <li><a href="/">API Info</a></li>
+        </ul>
+    </div>
+</body>
+</html>
