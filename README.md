@@ -2,6 +2,8 @@
 
 A modern e-commerce application for an online clothes shop built with Node.js and Express.js.
 
+*Technologies: Node.js, Express.js, MySQL, Railway.app*
+
 ## 🚀 Features
 
 - RESTful API architecture
@@ -22,7 +24,7 @@ Before running this application, make sure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Anh-Thuw/ClothesShop.git
 cd ClothesShop
 ```
 
